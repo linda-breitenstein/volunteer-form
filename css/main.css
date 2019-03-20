@@ -1,0 +1,35 @@
+body {
+  font-family: "Noto Serif", serif;
+}
+
+header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+fieldset {
+  border: none;
+}
+select,
+input,
+textarea,
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+  border-color: pink;
+}
+
+hr {
+  border-color: pink;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pad-right {
+    padding: .5rem;
+  }
+
+  .pad-left {
+    padding: .5rem;
+  }
+
+}
