@@ -15,11 +15,25 @@ input,
 textarea,
 input[type="checkbox"] + label::before,
 input[type="radio"] + label::before {
-  border-color: pink;
+  border-color: #6e8c62;
 }
 
 hr {
-  border-color: pink;
+  border-color: #70ad55;
+}
+
+span {
+  color: #70ad55;
+}
+
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+
+}
+
+.btn-light {
+
 }
 
 @media only screen and (min-width: 38em) {
