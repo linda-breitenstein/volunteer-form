@@ -1,4 +1,4 @@
-body {
+html {
   font-family: "Noto Serif", serif;
 }
 
@@ -10,6 +10,7 @@ header {
 fieldset {
   border: none;
 }
+
 select,
 input,
 textarea,
@@ -29,16 +30,10 @@ span {
 .btn {
   background-color: #6e8c62;
   color: #fff;
-
-}
-
-.btn-light {
-
 }
 
 .bottom {
   background-color: #70ad55;
-
 }
 
 footer {
