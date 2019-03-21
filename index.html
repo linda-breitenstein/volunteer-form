@@ -13,7 +13,7 @@
 <body>
 
   <main>
-    <form class="max-length">
+    <form class="max-length" action="https://formspree.io/brei0012@algonquinlive.com" method="POST">
       <header class="island-1-2 push">
         <div class="green">
           <h1 class="zetta pad-t-1-2">Apply to be a tree planter</h1>
@@ -44,7 +44,7 @@
             <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left">
               <label for="size">T-shirt size</label>
               <select id="size" name="size">
-                <option value="disabled selected">Select a t-shirt size</option>
+                <option value="">Select a t-shirt size</option>
                 <option>Fitted: XS</option>
                 <option>Fitted: S</option>
                 <option>Fitted: M</option>
@@ -86,7 +86,7 @@
             <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right">
               <label for="province">Province</label>
               <select id="province" name="province">
-                <option value="disabled selected">Select a province</option>
+                <option value="">Select a province</option>
                 <option>Alberta</option>
                 <option>British Columbia</option>
                 <option>Manitoba</option>
@@ -258,12 +258,10 @@
 
         <hr>
 
-        <fieldset>
-          <div>
-            <label for="comment">Please let us know any comments or questions you may have. <span class="italic green">(optional)</span></label>
-            <textarea id="comment" name="why"></textarea>
-          </div>
-        </fieldset>
+        <div>
+          <label for="comment">Please let us know any comments or questions you may have. <span class="italic green">(optional)</span></label>
+          <textarea id="comment" name="why"></textarea>
+        </div>
 
         <div class="push text-center">
           <button class="btn btn-light" type="submit">Apply!</button>
